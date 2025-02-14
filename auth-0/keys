@@ -1,0 +1,9 @@
+keytool -genkeypair \
+  -alias saml-poc \
+  -keyalg RSA \
+  -keysize 2048 \
+  -validity 3650 \
+  -keystore saml-poc.jks \
+  -storepass saml-poc \
+  -keypass saml-poc \
+  -dname "CN=localhost, OU=keeper, O=best, L=Austin, ST=Texas, C=US"

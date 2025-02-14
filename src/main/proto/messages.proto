@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.example.protobuf;
+
+option java_package = "com.example.protobuf";
+option java_outer_classname = "MyMessages";
+
+message MyRequest {
+  string name = 1;
+}
+
+message MyResponse {
+  string greeting = 1;
+}
