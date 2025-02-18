@@ -39,7 +39,6 @@ dependencies {
 
   // https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java
   implementation 'com.google.protobuf:protobuf-java:4.29.3'
-  implementation 'com.google.protobuf:protobuf-java:3.25.2'
   implementation 'io.grpc:grpc-netty-shaded:1.62.2'
   implementation 'io.grpc:grpc-protobuf:1.62.2'
   implementation 'io.grpc:grpc-stub:1.62.2'
